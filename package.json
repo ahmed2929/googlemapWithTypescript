@@ -1,5 +1,5 @@
 {
-  "name": "understanding-typescript",
+  "name": "practice",
   "version": "1.0.0",
   "description": "Understanding TypeScript Course Setup",
   "main": "app.js",
@@ -7,10 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
   },
-  "keywords": [
-    "typescript",
-    "course"
-  ],
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
@@ -18,7 +14,11 @@
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^4.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2"
+  }
 }
