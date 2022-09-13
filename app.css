@@ -1,7 +1,10 @@
+body{
+    background-color:peru;
+}
 #map{
     width: 90%;
     height: 20rem;
-    border: 1px solid #ccc;
+    border: 1px solid hsl(0, 9%, 7%);
     margin: 2rem auto;
     display: flex;
     justify-content: center;
@@ -11,4 +14,10 @@
 form{
     text-align: center;
     margin:2rem auto;
+   
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
 }
